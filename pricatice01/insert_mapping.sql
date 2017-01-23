@@ -1,0 +1,16 @@
+insert into mapping (staff_id, actor_id) values (1, 1);
+insert into mapping (staff_id, actor_id) values (1, 2);
+insert into mapping (staff_id, actor_id) values (2, 2);
+insert into mapping (staff_id, actor_id) values (2, 3);
+insert into mapping (staff_id, actor_id) values (3, 3);
+insert into mapping (staff_id, actor_id) values (3, 4);
+insert into mapping (staff_id, actor_id) values (4, 4);
+insert into mapping (staff_id, actor_id) values (4, 5);
+insert into mapping (staff_id, actor_id) values (5, 1);
+insert into mapping (staff_id, actor_id) values (5, 2);
+insert into mapping (staff_id, actor_id) values (6, 3);
+insert into mapping (staff_id, actor_id) values (6, 4);
+insert into mapping (staff_id, actor_id) values (6, 5);
+insert into mapping (staff_id, actor_id) values (7, 1);
+insert into mapping (staff_id, actor_id) values (7, 3);
+insert into mapping (staff_id, actor_id) values (7, 5);
