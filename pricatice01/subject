@@ -1,0 +1,6 @@
+1.查询订单id、商品名称、商品价格、销售人员名称、角色名称。
+	select o.id as order_id, c.name as commodity_name, c.price as commodity_price, s.name as staff_name, a.name as actor_name
+	from orders as o left join (orderitem as oi, staff as s, actor as a, commodity as c, mapping as m)
+	on o.id = oi.bill_id and oi.staff_id = s.id and oi.commodity_id = c.id and s.id = m.staff_id and a.id = m.actor_id
+	where s.id = 5
+	order by o.id;
