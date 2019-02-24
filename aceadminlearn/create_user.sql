@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS user
 	email	varchar(50)		not null,
 	niconame	varchar(20)		null,
 	birthday	date 	null,
-	reg_date	date 	not null,
+	reg_date	date 	null,
 	gender	int(4)	null,
 	comment		varchar(255)	null,
 	website		varchar(50)		null,
